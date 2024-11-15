@@ -2,6 +2,7 @@
 import { GoogleGenerativeAI } from '@google/generative-ai';
 import  { Request, Response } from 'express';
 import express from 'express';
+import cors from 'cors';
 import 'dotenv/config';
 const genAIKey = process.env.genAI;
 
@@ -30,6 +31,7 @@ console.log(response.text())
 }
 
 const app = express();
+app.use(cors());
 app.use(express.raw({ type: 'text/plain', limit: '1mb' }));
 
 app.post('/question', async (req: Request, res: Response) =>  {
