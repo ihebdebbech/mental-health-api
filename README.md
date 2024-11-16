@@ -18,4 +18,5 @@ Prerequisites
 Before you can run this project, make sure you have the following installed:
 
 Node.js (v16 or higher)
+
 API Key for the Gemini API (Sign up and obtain from Gemini)
