@@ -1,4 +1,4 @@
-##### Mental Health Support API
+# Mental Health Support API
 This is a Node.js Express application built with TypeScript, designed to provide mental health support using the Gemini API. The project aims to offer resources and services to assist individuals in managing mental health challenges. It integrates the Gemini API to provide mental health support content, including coping mechanisms, mindfulness techniques, and guided conversations.
 
 ### Features
